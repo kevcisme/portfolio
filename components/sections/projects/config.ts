@@ -2,18 +2,18 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
-    name: 'Personal Portfolio Website',
-    slug: 'portfolio',
+    name: 'Legends Pool',
+    slug: 'legends',
     description:
-      'A personal portfolio to showcase your coding projects, resume, and skills in a beautifully designed format.',
-    thumbnail: '/images/projects/portfolio/cover.jpg'
+      'A fun and easy to use website where users can play sports pools and receive advanced analytics about their pool and the athletes the pool is based on.',
+    thumbnail: '/images/projects/legends/front.png'
   },
   {
-    name: 'Recipe Sharing App',
-    slug: 'recipe_app',
+    name: 'nPassim',
+    slug: 'npassim',
     description:
-      'A social app for food lovers where users can post, share, and discover recipes from around the world.',
-    thumbnail: '/images/projects/recipe_app/cover.jpg'
+      'A mini website generator for people who want a simple way to make a link in bio for social media and do not want the hassle of signing up for an account.',
+    thumbnail: '/images/projects/npassim/cover.jpg'
   },
   {
     name: 'Virtual Study Group Platform',

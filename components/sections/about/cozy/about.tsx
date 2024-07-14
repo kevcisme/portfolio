@@ -25,16 +25,19 @@ function About() {
             </Reveal>
           </div>
           <p className="mt-4 hidden text-gray-500 dark:text-gray-400 lg:mt-0 lg:block lg:w-[35%]">
-            Here&apos;s where I share my journey through tech, highlighting the
-            experiences and passions that drive my innovative pursuits.
+            Here is where you can read about me.
           </p>
         </div>
         <div className="space-y-4">
           <p className="mt-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            I am a passionate and creative Web Developer with a love for
-            beautiful and functional websites. I have experience working with a
-            variety of web technologies and frameworks and I am always eager to
-            learn new things and take on new challenges.
+            Originally from Fresno, California. I currently call Honolulu home.
+            I started my professional career as an Intellectual Property
+            paralegal. After completing a life-changing bootcamp, I began to try
+            to enrich my newfound community with teaching. I taught people who
+            were in my same shoes - learning to code, learning the math and
+            algorithms behaind data science. Fast forward to whatever year it is
+            - 2017, and now I try to focus my work on solving problems for
+            people.
           </p>
           <Button asChild>
             <Link href="resume.pdf" target="_blank">
