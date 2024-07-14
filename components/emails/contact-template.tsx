@@ -85,7 +85,7 @@ ContactEmail.PreviewProps = {
   email: 'jane@example.com',
   message: `Hello!
 
-  This is Jane Doe, from Example. Just wanted to say hi!
+  This is someone who has access to gobs of money. Just wanted to say hi!
   `
 } as ContactEmailProps;
 

@@ -3,7 +3,7 @@ import { FooterItem } from '@/types/footer';
 const footer: FooterItem[] = [
   {
     title: 'Blog',
-    href: 'https://blog.example.com'
+    href: 'https://kevcisme.github.io/'
   },
   {
     title: 'Newsletter',

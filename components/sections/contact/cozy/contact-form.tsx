@@ -85,7 +85,7 @@ export default function ContactForm({ state }: ContactFormProps) {
           id="message"
           name="message"
           placeholder={
-            'Hello!\n\nThis is Jane Doe, from Example. Just wanted to say hi!'
+            'Hello!\n\nThis is someone who has access to gobs of money. Just wanted to say hi!'
           }
           required
           disabled={pending}

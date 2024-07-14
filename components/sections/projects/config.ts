@@ -16,25 +16,25 @@ const projects: Project[] = [
     thumbnail: '/images/projects/npassim/cover.jpg'
   },
   {
-    name: 'Virtual Study Group Platform',
-    slug: 'study_group',
+    name: 'palehuna',
+    slug: 'palehuna',
     description:
-      'A platform where students can form virtual study groups, schedule sessions, and share resources in real-time.',
-    thumbnail: '/images/projects/study_group/cover.jpg'
+      'A mobile app that protects images from becoming AI training data',
+    thumbnail: '/images/projects/palehuna/cover.jpg'
   },
   {
-    name: 'Fitness Tracker App',
-    slug: 'fitness_tracker',
+    name: 'Ligh10',
+    slug: 'light10',
     description:
-      'A mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools.',
-    thumbnail: '/images/projects/fitness_tracker/cover.jpg'
+      'An automated content generator. Creates videos and uses AI to voice text, then posts on TikTok and YouTube Shorts.',
+    thumbnail: '/images/projects/ligh10/cover.jpg'
   },
   {
-    name: 'Eco-friendly Marketplace',
-    slug: 'eco_marketplace',
+    name: 'Interviewgineer',
+    slug: 'interviewgineer',
     description:
-      'An e-commerce platform dedicated to eco-friendly products where users can buy, sell, and learn about sustainable living.',
-    thumbnail: '/images/projects/eco_marketplace/cover.jpg'
+      'A fully deployable solution for tech teams who want to hire data people.',
+    thumbnail: '/images/projects/interviewgineer/cover.jpg'
   },
   {
     name: 'Interactive Coding Tutorial Site',
