@@ -15,7 +15,7 @@ const skills: Skill[] = [
     Icon: CodeIcon
   },
   {
-    name: 'Data stuff',
+    name: 'Data Storage',
     description:
       'I am comfortable in a wide variety of data stores from SQL to NoSQL, single node to distributed. I have worked in databases, data warehouses, data lakes, and lakehouses across a variety of vendors. Just point me in the direction and I likely have used it!',
     Icon: DatabaseIcon

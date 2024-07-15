@@ -42,6 +42,13 @@ const projects: Project[] = [
     description:
       'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
     thumbnail: '/images/projects/coding_tutorials/cover.jpg'
+  },
+  {
+    name: 'menstrucyle',
+    slug: 'menstrucycle',
+    description:
+      'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
+    thumbnail: '/images/projects/menstrucycle/cover.jpg'
   }
 ];
 
