@@ -19,7 +19,7 @@ const projects: Project[] = [
     name: 'palehuna',
     slug: 'palehuna',
     description:
-      'A mobile app that protects images from becoming AI training data',
+      'Coming soon. WIP. A mobile app that protects images from becoming AI training data',
     thumbnail: '/images/projects/palehuna/cover.jpg'
   },
   {
