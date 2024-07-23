@@ -47,7 +47,7 @@ const projects: Project[] = [
     name: 'menstrucyle',
     slug: 'menstrucycle',
     description:
-      'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
+      'A mobile app written for guys to explain how the menstrual cycle of their partner works.',
     thumbnail: '/images/projects/menstrucycle/cover.jpg'
   }
 ];
