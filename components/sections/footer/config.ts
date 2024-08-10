@@ -6,8 +6,8 @@ const footer: FooterItem[] = [
     href: 'https://kevcisme.github.io/'
   },
   {
-    title: 'Newsletter',
-    href: 'https://newsletter.example.com'
+    title: 'Thanks for visiting!',
+    href: 'https://www.youtube.com/watch?v=bj4pBELyDwo'
   }
 ];
 

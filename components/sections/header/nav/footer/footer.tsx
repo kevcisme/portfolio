@@ -56,7 +56,7 @@ export default function Footer() {
           animate="enter"
           exit="exit"
         >
-          Newsletter
+          Thanks for visiting!
         </motion.li>
       </ul>
     </div>
