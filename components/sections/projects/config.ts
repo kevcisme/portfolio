@@ -2,6 +2,13 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
+    name: 'sileninja',
+    slug: 'sileninja',
+    description:
+      'A mobile app written for people like me who think their phone is listening to them. Currently testing in TestFlight. Contact me if you would like to test!',
+    thumbnail: '/images/projects/sileninja/cover.jpg'
+  },
+  {
     name: 'Legends Pool',
     slug: 'legends',
     description:
@@ -47,7 +54,7 @@ const projects: Project[] = [
     name: 'menstrucyle',
     slug: 'menstrucycle',
     description:
-      'A mobile app written for guys to explain how the menstrual cycle of their partner works.',
+      'A mobile app written for people like me to explain how the menstrual cycle of their partner works. Currently testing in TestFlight. Contact me if you would like to test!',
     thumbnail: '/images/projects/menstrucycle/cover.jpg'
   }
 ];
