@@ -143,7 +143,7 @@ function About() {
           <br></br>
           <Button asChild>
             <Link
-              href="https://www.npassim.com/1?data=eyJuIjoidGFsa3MgYnkga2V2aW4gY295bGUiLCJkIjoiIiwiZnUiOiIiLCJsbyI6IiIsImkiOiJodHRwczovL2dhLWNvcmUuczMuYW1hem9uYXdzLmNvbS9wcm9kdWN0aW9uL3VwbG9hZHMvaW5zdHJ1Y3Rvci9pbWFnZS8xNjA5Mi93ZWJwX3RodW1ibmFpbF9rZXZpbl9oZWFkc2hvdC5qcGcud2VicCIsImYiOiIiLCJ0IjoiIiwiaWciOiIiLCJnaCI6IiIsInRnIjoiIiwibCI6IiIsImUiOiIiLCJ3IjoiIiwieSI6IiIsImxzIjpbeyJpIjoiIiwibCI6IkFJIEVuZ2luZWVyaW5nIDEwMSIsInUiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9wcmVzZW50YXRpb24vZC8xajY3TWhELUFGc0NLTzRkRlpWdHJlam9xaDA2YjI5MVhMcTVwTFd3UTgycy9lZGl0P3VzcD1zaGFyaW5nIn0seyJpIjoiIiwibCI6IlJBRyhlKSBBZ2FpbnN0IHRoZSBLZXl3b3JkIFNlYXJjaCAiLCJ1IjoiaHR0cHM6Ly9naXRodWIuY29tL2tldmNpc21lL3B5LWhhd2FpaS1yYWctMjAyNCJ9XX0="
+              href="https://www.npassim.com/1?data=eyJuIjoidGFsa3MgYnkga2V2aW4iLCJkIjoiIiwiZnUiOiJoZXJlJ3Mgc29tZSB0YWxrcyBpJ3ZlIGdpdmVuIHJlY2VudGx5IiwibG8iOiJmaW5kIG1lIGF0IHRoZSBsaW5rcyBiZWxvdyIsImkiOiIiLCJmIjoiIiwidCI6InguY29tL2tldmNpc21lIiwiaWciOiIiLCJnaCI6ImdpdGh1Yi5jb20va2V2Y2lzbWUiLCJ0ZyI6IiIsImwiOiIiLCJlIjoia2V2aW5AY2hlbGxlLmFpIiwidyI6IiIsInkiOiIiLCJscyI6W3siaSI6Im1kaTpicmFpbiIsImwiOiJyYWcgMjAxICIsInUiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9wcmVzZW50YXRpb24vZC8xeldHa3B2RmNUTUw2SnRyazZOTnpoOEtidktQcE40QUZhN3ZCR3QtSVhhMC9lZGl0P3VzcD1zaGFyaW5nIn1dfQ=="
               target="_blank"
             >
               Talks by me! <ArrowUpRightIcon className="ml-2 size-5" />
