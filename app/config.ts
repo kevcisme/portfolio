@@ -4,11 +4,12 @@ const metadata: Metadata = {
   author: {
     name: 'Kevin Coyle',
     username: 'kevcisme',
-    label: 'Machine Learning Engineer'
+    label: 'Software Engineer Machine Learning'
   },
   site: {
     title: 'Kevin Coyle - Portfolio',
-    description: 'Portfolio of machine learning guy Kevin Coyle',
+    description:
+      'Portfolio of software engineer and machine learning guy Kevin Coyle',
     ogImage: '/images/og.png',
     url: 'https://www.kevincoyle.xyz',
     keywords: [
