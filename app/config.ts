@@ -4,7 +4,7 @@ const metadata: Metadata = {
   author: {
     name: 'Kevin Coyle',
     username: 'kevcisme',
-    label: 'Software Engineer Machine Learning'
+    label: 'Software Engineer | Machine Learning Engineer'
   },
   site: {
     title: 'Kevin Coyle - Portfolio',
