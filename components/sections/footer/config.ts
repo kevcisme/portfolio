@@ -3,7 +3,7 @@ import { FooterItem } from '@/types/footer';
 const footer: FooterItem[] = [
   {
     title: 'Blog',
-    href: 'https://kevcisme.github.io/'
+    href: 'https://blog.kevincoyle.xyz'
   },
   {
     title: 'Thanks for visiting!',

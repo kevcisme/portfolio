@@ -28,7 +28,7 @@ const links: Link[] = [
   },
   {
     title: 'Blog',
-    href: 'https://kevcisme.github.io/',
+    href: 'https://blog.kevincoyle.xyz',
     thumbnail: 'blog.jpg',
     target: '_blank'
   },
