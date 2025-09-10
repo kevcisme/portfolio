@@ -13,7 +13,7 @@ const projects: Project[] = [
     slug: 'legends',
     description:
       'A fun and easy to use website where users can play sports pools and receive advanced analytics about their pool and the athletes the pool is based on.',
-    thumbnail: '/images/projects/legends/front.png'
+    thumbnail: '/images/projects/legends/cover.png'
   },
   {
     name: 'nPassim',
@@ -28,6 +28,13 @@ const projects: Project[] = [
     description:
       'Coming soon. WIP. A mobile app that protects images from becoming AI training data',
     thumbnail: '/images/projects/palehuna/cover.jpg'
+  },
+  {
+    name: 'Avax Aligned',
+    slug: 'avax-aligned',
+    description:
+      'The best way to share for degens to share their deepest meme coin secrets.',
+    thumbnail: '/images/projects/avax-aligned/cover.png'
   },
   {
     name: 'Ligh10',
