@@ -16,6 +16,12 @@ const projects: Project[] = [
     thumbnail: '/images/projects/legends/cover.png'
   },
   {
+    name: 'Dude Scouts',
+    slug: 'dude-scouts',
+    description: 'Learn stuff, earn badges, become a better dude!',
+    thumbnail: '/images/projects/dude-scouts/cover.png'
+  },
+  {
     name: 'nPassim',
     slug: 'npassim',
     description:
