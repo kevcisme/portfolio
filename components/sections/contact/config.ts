@@ -1,7 +1,7 @@
 import { Contact } from '@/types/contact';
 
 const contact: Contact = {
-  email: 'kevin@lloom.ai',
+  email: 'kevin@primarykey.solutions',
   socials: {
     github: 'https://github.com/kevcisme',
     youtube: 'https://youtube.com/@kevcisme',
