@@ -2,14 +2,14 @@ import { Experience } from '@/types/experience';
 
 const experiences: Experience[] = [
   {
-    name: 'Data Science Manager',
+    name: 'AI/ML Technical Lead',
     duration: '2023 - Present',
-    company: 'A&MPLIFY',
+    company: 'A&M',
     description:
-      'A&MPLIFY is a digital transformation company that exists inside of a larger company called Alvarez and Marsal. I work on the AI and Analytics team, and most of my work centers on bringing LLM based applications to prod.'
+      'A&M is a consulting firm that provides a wide range of services to its clients. I work on the AI and Analytics team, and most of my work centers on bringing AI and ML based applications to production.'
   },
   {
-    name: 'Technical Curriculum Developer',
+    name: 'Solutions Architect',
     duration: '2020 - 2023',
     company: 'Databricks',
     description:
@@ -27,7 +27,7 @@ const experiences: Experience[] = [
     duration: '2017 - 2018',
     company: 'Alo Yoga',
     description:
-      'At Alo, I sat on the web team, but really, we were like the digital team. We were responsible for the site (Shopify) and also email marketing (there was another team responsible for social media, and I worked cross functionally with them often). I worked on some really impactful projects and some straightforward business analytics projects. I also learned how to do crow pose for more than 20 seconds.'
+      'At Alo, I sat on the web team, but really, we were like the digital team. We were responsible for the site (Shopify) and also email marketing. I worked on some really impactful projects and some straightforward business analytics projects. I also learned how to do crow pose for more than 20 seconds.'
   }
 ];
 
