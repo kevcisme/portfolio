@@ -1,0 +1,16 @@
+---
+name: Coalcast
+description: Plan a low-and-slow cook backward from serve time. A heat equation for the meat, a Kalman filter once the probe is in. Currently testing in TestFlight. Contact me if you would like to test!
+techstack:
+  - label: Expo
+  - label: TypeScript
+  - label: Python
+  - label: NumPy
+  - label: Postgres
+---
+
+I got tired of brisket math that is just "about an hour and a half per inch, plus the stall, good luck." Coalcast plans the cook backward from when you want to eat: when to light the fire, a pull window, and a hold long enough to absorb the error.
+
+The model is a heat equation. A brisket is a slab, a loin is a cylinder, a shoulder is closer to a sphere. The stall is not a special case. While the surface is wet it sits near the wet-bulb temperature of the pit, and wrapping in paper or foil is just a change to that boundary. Monte Carlo over thickness, smoker offset, and the humidity forecast turns one simulation into a P10–P90 window instead of a fake precise done time.
+
+Once a probe is in the meat, a Kalman filter treats that physics model as the process and the probe as the measurement. The window moves with the cook. After a few cooks the smoker itself gets a learned offset, because your pit runs hot and the model should know that.

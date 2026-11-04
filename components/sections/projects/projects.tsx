@@ -5,8 +5,18 @@ import Reveal from '@/components/reveal';
 
 import { projects } from '@/components/sections/projects/config';
 import MotionWrap from '@/components/motion-wrap';
+import { getAllPages, type ProjectMetadata } from '@/lib/mdx';
 
 function Projects() {
+  const archivedSlugs = new Set(
+    getAllPages<ProjectMetadata>('projects')
+      .filter((project) => project.archived)
+      .map((project) => project.slug)
+  );
+  const visibleProjects = projects.filter(
+    (project) => !archivedSlugs.has(project.slug)
+  );
+
   return (
     <MotionWrap className="w-full py-24 lg:py-32" id="projects">
       <div className="space-y-4 px-4 md:space-y-6 md:px-6 lg:space-y-10">
@@ -29,7 +39,7 @@ function Projects() {
           </p>
         </div>
         <div className="mt-6 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
-          {projects.map((project, index) => (
+          {visibleProjects.map((project, index) => (
             <ProjectCard
               key={index}
               slug={project.slug}

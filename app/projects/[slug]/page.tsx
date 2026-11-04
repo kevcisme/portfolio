@@ -20,9 +20,11 @@ type ProjectPageProps = {
 };
 
 export const generateStaticParams = (): Array<ProjectPageProps['params']> => {
-  return getAllPages<ProjectMetadata>('projects').map((project) => ({
-    slug: project.slug
-  }));
+  return getAllPages<ProjectMetadata>('projects')
+    .filter((project) => !project.archived)
+    .map((project) => ({
+      slug: project.slug
+    }));
 };
 
 export const generateMetadata = async (
@@ -33,7 +35,7 @@ export const generateMetadata = async (
 
   const project = getPage<ProjectMetadata>(`projects/${params.slug}`);
 
-  if (!project) {
+  if (!project || project.metadata.archived) {
     return {};
   }
 
@@ -96,7 +98,7 @@ const ProjectPage = (props: ProjectPageProps) => {
 
   const project = getPage<ProjectMetadata>(`projects/${slug}`);
 
-  if (!project) {
+  if (!project || project.metadata.archived) {
     notFound();
   }
 

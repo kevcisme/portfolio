@@ -8,20 +8,9 @@ export type ProjectMetadata = {
   website: string;
   github: string;
   techstack: Array<{ label: string }>;
-  selected: boolean;
   slug: string;
-};
-
-export type BlogMetadata = {
-  title: string;
-  date: string;
-  modifiedTime: string;
-  summary: string;
-  slug: string;
-};
-
-export type PageMetadata = {
-  slug: string;
+  /** When true, the project stays in content but is hidden from the site. */
+  archived?: boolean;
 };
 
 const mdxFilesRootDirectory = path.join(process.cwd(), 'content');

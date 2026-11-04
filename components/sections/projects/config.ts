@@ -2,6 +2,33 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
+    name: 'Coalcast',
+    slug: 'coalcast',
+    description:
+      'Plan a low-and-slow cook backward from serve time. A heat equation for the meat, a Kalman filter once the probe is in. Currently testing in TestFlight. Contact me if you would like to test!',
+    thumbnail: '/images/projects/coalcast/cover.png'
+  },
+  {
+    name: 'Winosaurus',
+    slug: 'winosaurus',
+    description:
+      'A thesaurus for wine. Say what you taste and it finds the bottle.',
+    thumbnail: '/images/projects/winosaurus/cover.png'
+  },
+  {
+    name: 'The Dashbordeaux',
+    slug: 'dashbordeaux',
+    description:
+      "A daily briefing of the wine world, so I don't have to open five trade sites before coffee.",
+    thumbnail: '/images/projects/dashbordeaux/cover.png'
+  },
+  {
+    name: 'Convierge',
+    slug: 'convierge',
+    description: 'The travel app for the five awkward minutes after you land.',
+    thumbnail: '/images/projects/convierge/cover.png'
+  },
+  {
     name: 'sileninja',
     slug: 'sileninja',
     description:
@@ -43,11 +70,18 @@ const projects: Project[] = [
     thumbnail: '/images/projects/avax-aligned/cover.png'
   },
   {
-    name: 'Ligh10',
+    name: 'Brainrot Bot',
     slug: 'light10',
     description:
       'An automated content generator. Creates videos and uses AI to voice text, then posts on TikTok and YouTube Shorts.',
     thumbnail: '/images/projects/ligh10/cover.jpg'
+  },
+  {
+    name: 'menstrucyle',
+    slug: 'menstrucycle',
+    description:
+      'A mobile app written for people like me to explain how the menstrual cycle of their partner works. Currently testing in TestFlight. Contact me if you would like to test!',
+    thumbnail: '/images/projects/menstrucycle/cover.jpg'
   },
   {
     name: 'Interviewgineer',
@@ -62,13 +96,6 @@ const projects: Project[] = [
     description:
       'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
     thumbnail: '/images/projects/coding_tutorials/cover.jpg'
-  },
-  {
-    name: 'menstrucyle',
-    slug: 'menstrucycle',
-    description:
-      'A mobile app written for people like me to explain how the menstrual cycle of their partner works. Currently testing in TestFlight. Contact me if you would like to test!',
-    thumbnail: '/images/projects/menstrucycle/cover.jpg'
   }
 ];
 

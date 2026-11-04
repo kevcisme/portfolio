@@ -1,12 +1,12 @@
 import React from 'react';
 import { CardContent, CardFooter, Card } from '@/components/ui/card';
-import { Button, buttonVariants } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 
 import Link from 'next/link';
 import Image from 'next/image';
 
 import { Project } from '@/types/project';
-import { GithubIcon, GlobeIcon, InfoIcon } from 'lucide-react';
+import { InfoIcon } from 'lucide-react';
 
 import {
   Tooltip,
