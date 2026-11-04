@@ -1,9 +1,5 @@
 import React from 'react';
-import { CardContent, CardFooter, Card } from '@/components/ui/card';
-import { buttonVariants } from '@/components/ui/button';
-
-import Link from 'next/link';
-import Image from 'next/image';
+import { CardContent, Card } from '@/components/ui/card';
 import { CodeIcon } from 'lucide-react';
 
 import { Skill } from '@/types/skill';

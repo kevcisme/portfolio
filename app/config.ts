@@ -10,7 +10,7 @@ const metadata: Metadata = {
     title: 'Kevin Coyle - Portfolio',
     description:
       'Portfolio of software engineer and machine learning guy Kevin Coyle',
-    ogImage: '/images/og.png',
+    ogImage: '/images/personal/og.png',
     url: 'https://www.kevincoyle.xyz',
     keywords: [
       'data science',

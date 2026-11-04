@@ -5,8 +5,8 @@ const contact: Contact = {
   socials: {
     github: 'https://github.com/kevcisme',
     youtube: 'https://youtube.com/@kevcisme',
-    twitter: 'https://twitter.com/kevcisme',
-    linkedin: 'https://linkedin.com/in/kevinscoyle'
+    twitter: 'https://twitter.com/kevcisme'
+    // linkedin: 'https://linkedin.com/in/kevinscoyle'
   }
 };
 

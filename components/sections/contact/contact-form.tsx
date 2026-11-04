@@ -6,8 +6,8 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 
-import { LoaderCircleIcon, PlusIcon } from 'lucide-react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { LoaderCircleIcon } from 'lucide-react';
+import { useFormStatus } from 'react-dom';
 
 interface ValidationErrors {
   success: boolean;

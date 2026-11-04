@@ -1,12 +1,11 @@
 import Header from './header/header';
-// todo: decide abt this
-import Hero from './hero/cozy/hero';
-import About from './about/cozy/about';
-import Skills from './skills/cozy/skills';
-import Experience from './experience/cozy/experience';
-import Projects from './projects/cozy/projects';
-import Contact from './contact/cozy/contact';
-import Testimonials from './testimonials/cozy/testimonials';
+import Hero from './hero/hero';
+import About from './about/about';
+import Skills from './skills/skills';
+import Experience from './experience/experience';
+import Projects from './projects/projects';
+import Contact from './contact/contact';
+import Testimonials from './testimonials/testimonials';
 import Footer from './footer/footer';
 
 export {

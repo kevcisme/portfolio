@@ -24,7 +24,6 @@ type ProjectMetadata = {
   website: string;
   github: string;
   techstack: Array<{ label: string }>;
-  selected: boolean;
   slug: string;
 };
 
