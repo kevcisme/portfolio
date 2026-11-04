@@ -2,6 +2,13 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
+    name: 'Coalcast',
+    slug: 'coalcast',
+    description:
+      'Plan a low-and-slow cook backward from serve time. A heat equation for the meat, a Kalman filter once the probe is in. Currently testing in TestFlight. Contact me if you would like to test!',
+    thumbnail: '/images/projects/coalcast/cover.png'
+  },
+  {
     name: 'Winosaurus',
     slug: 'winosaurus',
     description:
